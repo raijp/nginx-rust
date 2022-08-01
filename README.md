@@ -1,5 +1,7 @@
 # 1. Launch the server.
 ```
+git clone https://github.com/raijp/nginx-rust.git && cd nginx-rust
+
 docker rm -f rust-server
 
 docker run -it -d \

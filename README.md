@@ -2,6 +2,8 @@
 ```
 git clone https://github.com/raijp/nginx-rust.git && cd nginx-rust
 
+docker build -t rust:v1 .
+
 docker rm -f rust-server
 
 docker run -it -d \
